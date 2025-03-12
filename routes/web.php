@@ -13,3 +13,5 @@ Route::get(uri: '/item', action:'App\Http\Controllers\ItemController@index');
 Route::get(uri: '/form', action:'App\Http\Controllers\FormController@index');
 
 Route::get(uri: '/hello', action:'App\Http\Controllers\HelloController@index');
+
+Route::get(uri: '/category', action:'App\Http\Controllers\CategoryController@index');
