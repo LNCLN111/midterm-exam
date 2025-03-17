@@ -17,7 +17,7 @@
                         <p class="text-sm text-red-500"><?= $_GET['message']; ?></p>
                     <?php endif; ?>
                     <div class="pt-8 text-base font-semibold leading-7">
-                    <button type="submit" class="bg-sky-500 hover:bg-sky-600 px-4 py-1 text-white rounded">
+                    <button type="Back" class="bg-sky-500 hover:bg-sky-600 px-4 py-1 text-white rounded">
                         Back
                     </button>
                     </div>
