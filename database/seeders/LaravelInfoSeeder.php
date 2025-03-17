@@ -2,73 +2,63 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\LaravelInfo;
 
 class LaravelInfoSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
-    public function run(): void
+    public function run()
     {
-        LaravelInfoSeeder::create([
-            'id' => 1,
-            'feature name' => 'Model',
+        LaravelInfo::create([
+            'feature_name' => 'Model',
             'description' => 'Represents database table and allows user to interact in object-oriented way.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 2,
-            'feature name' => 'View',
+        LaravelInfo::create([
+            'feature_name' => 'View',
             'description' => 'Displays data through HTML templates.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 3,
-            'feature name' => 'Controller',
+        LaravelInfo::create([
+            'feature_name' => 'Controller',
             'description' => 'Manages Model and View logic.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 4,
-            'feature name' => 'Routes',
+        LaravelInfo::create([
+            'feature_name' => 'Routes',
             'description' => 'Defines URLs and directs user accordingly.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 5,
-            'feature name' => 'Middleware',
+        LaravelInfo::create([
+            'feature_name' => 'Middleware',
             'description' => 'Filters HTTP request allowing authentication or/and logging in.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 6,
-            'feature name' => 'Blade Templates',
+        LaravelInfo::create([
+            'feature_name' => 'Blade Templates',
             'description' => 'Template engine for creating dynamic views.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 7,
-            'feature name' => 'Migrations',
+        LaravelInfo::create([
+            'feature_name' => 'Migrations',
             'description' => 'Version control for database schema.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 8,
-            'feature name' => 'Seeders',
+        LaravelInfo::create([
+            'feature_name' => 'Seeders',
             'description' => 'Populates database with initial data.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 9,
-            'feature name' => 'Database',
+        LaravelInfo::create([
+            'feature_name' => 'Database',
             'description' => 'Unified interface for database interaction and storage for data.',
         ]);
 
-        LaravelInfoSeeder::create([
-            'id' => 10,
-            'feature name' => 'Eloquent ORM',
+        LaravelInfo::create([
+            'feature_name' => 'Eloquent ORM',
             'description' => 'ActiveRecord implementation for working with database.',
         ]);
     }

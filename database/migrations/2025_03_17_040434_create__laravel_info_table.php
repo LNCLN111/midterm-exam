@@ -15,7 +15,6 @@ class CreateLaravelInfoTable extends Migration
             $table->id();
             $table->string('feature name');
             $table->string('description');
-            $table->timestamps();
         });
     }
 
